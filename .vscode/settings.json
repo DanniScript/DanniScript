@@ -1,0 +1,26 @@
+{
+	"files.exclude": {
+		".eslintignore": true,
+		".eslintrc.cjs": true,
+		".gitignore": true,
+		".npmrc": true,
+		".prettierignore": true,
+		".prettierrc": true,
+		"bun.lockb": true,
+		"package-lock.json": true,
+		"package.json": false,
+		"postcss.config.js": true,
+		"svelte.config.js": false,
+		"tailwind.config.js": false,
+		"tsconfig.json": true,
+		"vite.config.ts": true,
+		".git/": true,
+		".svelte-kit/": true,
+		".vscode/": true,
+		"node_modules/": true,
+		"static/": false,
+		"vite.config.js.timestamp-*": true,
+		"vite.config.ts.timestamp-*": true
+	},
+	"explorer.sortOrder": "filesFirst"
+}

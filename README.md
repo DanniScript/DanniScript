@@ -4,7 +4,6 @@ Currently I'm studying __Computer Engineering__ at ESPOL in Ecuador. I enjoy exp
 
 I've had hands-on experience with:
 
-- Figma
 - SvelteKit
 - Next.js
 - Tailwindcss

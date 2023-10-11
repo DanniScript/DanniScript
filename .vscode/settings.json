@@ -13,7 +13,7 @@
 		"svelte.config.js": false,
 		"tailwind.config.js": false,
 		"tsconfig.json": true,
-		"vite.config.ts": true,
+		"vite.config.ts": false,
 		".git/": true,
 		".svelte-kit/": true,
 		".vscode/": true,

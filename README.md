@@ -15,4 +15,4 @@ I've had hands-on experience with:
 <br />
 <br />
 
-(@DanniScript)[https://danniscript.vercel.app/]
+[@DanniScript](https://danniscript.vercel.app/)

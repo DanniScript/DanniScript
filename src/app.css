@@ -5,7 +5,7 @@
 @layer base {
 	:root {
 		--sidebar-width: 16rem;
-		--background-color: var(--color-gray-50);
+		--background-color: theme('colors.gray.50');
 	}
 
 	body {

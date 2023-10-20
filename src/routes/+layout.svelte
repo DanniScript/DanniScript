@@ -2,6 +2,8 @@
 	import '../app.css'
 	import profile from '$lib/assets/profile.png?as=run'
 
+	import { navigating } from '$app/stores'
+
 	import {
 		Sidebar,
 		SidebarMenu,
@@ -38,13 +40,17 @@
 
 		<SidebarMenu>
 			<SidebarMenuHeading class="mb-[0.75rem]">My workbench</SidebarMenuHeading>
-			<SidebarMenuSubItem href="/pressable-button">Pressable button</SidebarMenuSubItem>
+			<SidebarMenuSubItem href="/pressable-buttons">Pressable buttons</SidebarMenuSubItem>
 		</SidebarMenu>
 	</Sidebar>
 
 	<main class="grow py-[1rem] pr-[1rem]">
-		<div class="h-full overflow-hidden rounded-[0.5rem] bg-gray-200">
-			<slot />
-		</div>
+		{#if $navigating}
+			<div class="h-full animate-pulse overflow-hidden rounded-[0.5rem] bg-gray-200"></div>
+		{:else}
+			<div class="h-full overflow-hidden rounded-[0.5rem] bg-gray-200">
+				<slot />
+			</div>
+		{/if}
 	</main>
 </div>
